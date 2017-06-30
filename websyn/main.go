@@ -7,11 +7,11 @@ import (
 )
 
 var cmdChain = []*exec.Cmd{
-	exec.Command("lib/synonyms"),
-	exec.Command("lib/sprinkle"),
-	exec.Command("lib/coolify"),
-	exec.Command("lib/domainify"),
-	exec.Command("lib/available"),
+	exec.Command("lib/synonyms.exe"),
+	exec.Command("lib/sprinkle.exe"),
+	exec.Command("lib/coolify.exe"),
+	exec.Command("lib/domainify.exe"),
+	exec.Command("lib/available.exe"),
 }
 
 func main() {
